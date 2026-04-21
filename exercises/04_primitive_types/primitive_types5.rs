@@ -3,6 +3,7 @@ fn main() {
 
     // TODO: Destructure the `cat` tuple in one statement so that the println works.
     // let /* your pattern here */ = cat;
-
+    let name: &str = "Furry McFurson";
+    let age: f64 = 3.5;
     println!("{name} is {age} years old");
 }
